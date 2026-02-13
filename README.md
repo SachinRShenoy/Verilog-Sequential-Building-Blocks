@@ -12,6 +12,28 @@ The modules are written as reusable RTL building blocks commonly used in process
 
 ---
 
+## 🏗 Repository Structure
+
+```
+📦 Verilog-Sequential-Building-Blocks
+┣ 📂 rtl
+┃ ┣ reg_nbit.v
+┃ ┣ siso.v
+┃ ┣ sipo.v
+┃ ┣ piso.v
+┃ ┣ pipo.v
+┃ ┣ shift_param.v
+┃ ┣ fifo.v
+┃ ┗ stack.v
+┣ 📂 tb
+┃ ┗ top_tb.v
+┣ 📂 sim
+┃ ┗ waveforms/
+┗ README.md
+```
+
+---
+
 ## 🎯 Learning Goals
 
 - Strengthen understanding of sequential logic
@@ -98,29 +120,6 @@ Applications:
 - Temporary storage
 - Function call handling
 - Expression evaluation
-
----
-
-## 🏗 Repository Structure
-
-```
-📦 Verilog-Sequential-Building-Blocks
-┣ 📂 rtl
-┃ ┣ reg_nbit.v
-┃ ┣ siso.v
-┃ ┣ sipo.v
-┃ ┣ piso.v
-┃ ┣ pipo.v
-┃ ┣ shift_param.v
-┃ ┣ fifo.v
-┃ ┗ stack.v
-┣ 📂 tb
-┃ ┗ top_tb.v
-┣ 📂 sim
-┃ ┗ waveforms/
-┗ README.md
-```
-
 
 ---
 

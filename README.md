@@ -17,14 +17,13 @@ The modules are written as reusable RTL building blocks commonly used in process
 ```
 📦 Verilog-Sequential-Building-Blocks
 ┣ 📂 rtl
-┃ ┣ reg_nbit.v
+┃ ┣ regs.v
 ┃ ┣ siso.v
 ┃ ┣ sipo.v
 ┃ ┣ piso.v
 ┃ ┣ pipo.v
-┃ ┣ shift_param.v
-┃ ┣ fifo.v
-┃ ┗ stack.v
+┃ ┣ lifo.v
+┃ ┗ fifo.v 
 ┣ 📂 tb
 ┃ ┗ top_tb.v
 ┣ 📂 sim
@@ -127,14 +126,13 @@ Applications:
 
 | Module | Description |
 |--------|-------------|
-| `reg_nbit.v` | Parameterised synchronous register |
+| `regs.v` | Parameterised synchronous register |
 | `siso.v` | Serial-in serial-out shift register |
 | `sipo.v` | Serial-in parallel-out shift register |
 | `piso.v` | Parallel-in serial-out shift register |
 | `pipo.v` | Parallel-in parallel-out register |
-| `shift_param.v` | Width-configurable shift register |
 | `fifo.v` | FIFO buffer with status flags |
-| `stack.v` | Stack (LIFO) memory |
+| `lifo.v` | Stack (LIFO) memory |
 
 ---
 
